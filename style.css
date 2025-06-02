@@ -1,0 +1,61 @@
+.image{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    align-items: center;
+}
+
+.top{
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+h1{
+    text-decoration: none;
+    font-size: 50px;
+}
+
+h2{ 
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.specs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position:sticky;
+    font-size: 20px;
+    text-decoration:solid;
+    
+    
+}
+
+.product{
+    background-color: rgb(48, 47, 47);
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.footer{
+    color: gray;
+    text-align: center;
+}
