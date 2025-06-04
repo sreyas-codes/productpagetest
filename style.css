@@ -162,3 +162,12 @@ a {
     width: 48%;
 }
 
+.aboutp {
+    text-align: center;
+    font-size: 35px;
+    color: #E0E0E0;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+    margin: 0 auto;
+}
