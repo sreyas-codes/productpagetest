@@ -171,3 +171,41 @@ a {
     align-self: center;
     margin: 0 auto;
 }
+
+
+.nav{
+    background-color: #434242;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.nav a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+    border: 3px solid #000000;
+    background-color: #000000;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a:hover {
+    color: #00BFFF;
+}
